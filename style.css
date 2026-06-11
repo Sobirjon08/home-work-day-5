@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.home{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hometel{
+    display: none;
+}
+.navbar button{
+    border: none;
+    width: 220px;
+    height: 50px;
+    background-color: #23A6F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    gap: 10px;
+    color:white;
+    border-radius: 5px;
+}
+.navbartel{
+    display: none;
+}
+.bacground{
+    width: 100%;
+    height: 650px;
+    background-image: url(./6ceb7690219bb9c72e51df6123106303b09a9f79.jpg);
+    background-size: cover;
+    
+}
+.bakground{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #00000080;
+}
+.meet{
+    width: 600px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.mitthe{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+.mitthe h1{
+    font-size: 60px;
+    color: white;
+}
+.mitthe p{
+    color: gray;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.get{
+    width: 170px;
+    height: 40px;
+    background-color: #23A6F0;
+    border-radius: 30px;
+    color: white;
+    border: none;
+}
+.learn{
+    width: 170px;
+    height: 40px;
+    background-color: transparent;
+    border: solid 2px #23A6F0;
+    border-radius: 30px;
+    color: white;
+}
+.hero-form {
+  background: #fff;
+  border-radius: 8px;
+  padding: 28px 24px;
+  width: 320px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+}
+
+.hero-form h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1a1a2e;
+}
+
+.form-group {
+  margin-bottom: 14px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 5px;
+}
+.form-group input{
+    width: 300px;
+    height: 40px;
+}
+.form-group select {
+  width: 100%;
+  padding: 9px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #555;
+  outline: none;
+  appearance: auto;
+}
+.hero-form .btn-primary {
+    margin-left: 30px;
+     width: 260px;
+     height: 50px;
+     background-color: #23A6F0;
+     border-radius: 5px;
+     border: none;
+     color:white;
+}
+.bacgroundtel{
+    display: none;
+}
+@media(max-width:400px){
+    .navbar{
+        display: none;
+    }
+    .navbartel{
+        width: 100%;
+        height: 300px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+    .iconimg{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        row-gap: 100px;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .hometel{
+        width: 100%;
+        height: 300px;
+        border: solid 1px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 23px;
+    }
+    .bacground{
+        display: none;
+    }
+    .bacgroundtel {
+        width: 100%;
+        height: 1000px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(./photo_2026-06-11_12-49-56.jpg);
+        background-size: cover;
+    }
+    .meett{
+        width: 100%;
+        height: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .mitthee{
+        width: 330px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .mitthee h1{
+        font-size: 50px;
+        color: white;
+    }
+    .mitthee p{
+        color: gray;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
